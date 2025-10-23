@@ -17,5 +17,6 @@ python -m http.server 8000
 ```
 
 Notes:
+
 - The demo uses the compat build of Firebase v9 for simplicity. For production, consider using modular APIs.
 - Keep API keys out of public repos if the project is private-sensitive (API keys in Firebase are not secret by themselves but follow best practices).
